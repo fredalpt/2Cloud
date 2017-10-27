@@ -107,7 +107,7 @@ nav ul a {
 /* --- /HEADER --- */
 /* --- RESPONSIVE HEADER MAV --- */
 
-@media (min-width: 726px) {
+@media (min-width: 743px) {
 
   header {
     text-align: left;
@@ -218,7 +218,7 @@ form #quote {
 /* --- /MAIN --- */
 /* --- RESPONSIVE MAIN CLOUDS FORM --- */
 
-@media (min-width: 726px) {
+@media (min-width: 743px) {
   #clouds {
     display: block;
     text-align: center;
@@ -265,7 +265,7 @@ article h3 {
 /* --- /ARTICLES --- */
 /* --- RESPONSIVE ARTICLES 2 COLUMNS --- */
 
-@media (min-width: 726px) {
+@media (min-width: 743px) {
   .col {
     text-indent: 1.5em;
     display: inline-block;
