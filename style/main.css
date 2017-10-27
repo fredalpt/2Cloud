@@ -1,0 +1,296 @@
+/* --- GLOBAL --- */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  background-color: #151c27;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.logo {
+  display: inline-block;
+  margin: 10px 20px;  
+}
+
+.logo h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+.logo span {
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #5dbab5;
+  padding: 10px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-left: -4px;
+}
+
+/* --- /GLOBAL --- */
+/* --- HEADER --- */
+
+header {
+  padding-top: 15px;
+  text-align: center;
+  margin: 0;
+  background-color: #232d3b;
+  border-bottom: 5px solid #ee5f15;
+}
+
+
+.logo-lg {
+  padding-bottom: 10px;
+  max-height: 30px;
+  min-height: 20px;
+  font-size: 20px;
+}
+
+nav{
+  display: block;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul a {
+  
+  margin: 0 10px;
+  color: white;
+}
+
+#sign-up {
+  border-style: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 10px 80px;
+  border-radius: 5px;
+  color: white;
+  background-color: #a3d39c;
+  box-shadow: 0px 3px 0px #739e6c;
+  margin-top: 14px;
+  margin-bottom: 20px;
+  min-width: 100px;
+}
+
+
+/* --- /HEADER --- */
+/* --- MAIN --- */
+
+main {
+  padding-top: 20px;
+  background-color: #ff772f;
+  padding-bottom: 7px;
+  border-bottom: 5px solid #ee5f15;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+#clouds {
+  display: none;
+  text-align: center;
+}
+
+#clouds img {
+  width: 225px;
+}
+
+form {
+  position: relative;
+  text-align: center;
+}
+
+form select {
+  border-style: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 15px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 7px 3px rgba(0, 0, 0, 0.2);
+  margin: 10px 10px;
+  min-width: 250px;
+}
+
+form #quote {
+  border-style: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 15px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: #7accc8;
+  box-shadow: 0px 3px 0px #4aaaa5;
+  margin: 10px 10px;
+  min-width: 250px;
+}
+
+.btn-amount {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  padding-left: 34px;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  z-index: 1;
+}
+
+.btn-system {
+  display: none;
+  position: absolute;
+  top: 79px;
+  right: 18px;
+  padding-left: 29px;
+  padding-top: 15px;
+  padding-bottom: 16px;
+  z-index: 1;
+}
+
+/* --- /MAIN --- */
+/* --- ARTICLES --- */
+
+#articles {
+  color: #151c27;
+  padding-top: 20px;
+  background-color: #f6f5f2;
+}
+
+hr {
+  margin-bottom: 20px;  
+}
+
+article {
+  padding-bottom: 5px;
+}
+
+article h3 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 200;
+  font-size: 1.50rem;
+}
+
+.p-orange {
+  color: #ff742c;
+}
+/* --- /ARTICLES --- */
+/* --- FOOTER --- */
+
+footer {
+  text-align: center;
+}
+
+
+footer h6 {
+  color: #728aad;
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+footer input {
+  border-style: none;
+  outline: none;
+  background-color: #080c11;
+  color: white;
+/*  margin-top: 7px;*/
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+footer .btn-email {
+/*
+  display: inline-block;
+  background-color: #5dbab5;
+  padding: 10px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-left: -4px;
+*/
+}
+
+.social {
+  margin-bottom: 10px;
+}
+
+.logo-sm img,
+.logo-sm {
+  margin: 0;
+  max-height: 12px;
+  min-height: 10px;
+  font-size: 10px;
+}
+
+.social .square {
+  display: inline-block;
+  font-size: 1rem;
+  margin: 10px;
+  border-radius: 7px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.social .rss {
+  background-color: #ffaa16;
+  box-shadow: inset 0 -3px #d38600;
+}
+
+.social .dribble {
+  background-color: #ec5b95;
+  box-shadow: inset 0 -3px #d30054;
+}
+
+.social .twitter {
+  background-color: #00aeef;
+  box-shadow: inset 0 -3px #0081b1;
+}
+
+.social .facebook {
+  background-color: #0054a6;
+  box-shadow: inset 0 -3px #003a72;
+}
+
+footer p {
+  font-weight: 200;
+  font-size: 1rem;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+footer p a {
+  color: white;
+  text-decoration: underline;
+}
+
+.light {
+  border: 0.3px solid white;
+  margin: 10px;;
+}
+
+/* --- /FOOTER --- */
