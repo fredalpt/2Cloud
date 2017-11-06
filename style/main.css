@@ -83,9 +83,13 @@ nav ul li {
 }
 
 nav ul a {
-  
   margin: 0 10px;
   color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover{
+  color: #ff772f;
 }
 
 #sign-up {
@@ -102,6 +106,17 @@ nav ul a {
   background-color: #a3d39c;
   box-shadow: 0px 3px 0px #739e6c;
   min-width: 100px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+#sign-up:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+#sign-up:active {
+  background-color: #ff772f;
 }
 
 /* --- /HEADER --- */
@@ -191,6 +206,16 @@ form #quote {
   box-shadow: 0px 3px 0px #4aaaa5;
   margin: 10px 10px;
   min-width: 250px;
+  transition: all 0.5s ease-in-out;
+}
+
+form #quote:hover {
+  box-shadow: none;
+  cursor: pointer;
+}
+
+form #quote:active {
+  background-color: #4aaaa5;
 }
 
 .btn-amount {
@@ -227,6 +252,11 @@ form #quote {
   #clouds img {
     margin: 10px 20px;
     width: 225px;
+    transition: all 0.35s ease-in-out;
+  }
+  
+  #clouds img:hover {
+    transform: scale(0.85);
   }
   
   form #quote {
@@ -312,9 +342,19 @@ footer input {
   border-bottom-left-radius: 7px;
 }
 
+.btn-email {
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+
+.btn-email:hover {
+  background-color: #ff772f;
+}
+
 .logo-sm img,
 .logo-sm {
   margin: 0;
+  margin-top: 8px;
   max-height: 12px;
   min-height: 10px;
   font-size: 10px;
@@ -329,6 +369,12 @@ footer input {
   width: 35px;
   height: 35px;
   line-height: 35px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.social .square:hover {
+  transform: scale(0.8);
 }
 
 .social .rss {
@@ -421,6 +467,10 @@ footer p a {
   
   footer p {
     text-align: center;
+  }
+  
+  footer p a {
+    transition: all 0.25s ease-in-out;
   }
   
   .hr-footer {
